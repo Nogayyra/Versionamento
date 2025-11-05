@@ -1,2 +1,3 @@
 Projeto Versão Inicial (Caminho para o Sucesso)
 Funcionalidade de Login concluída.
+Módulo de cadastro iniciado.
