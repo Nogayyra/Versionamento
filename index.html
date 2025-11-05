@@ -1,0 +1,46 @@
+<!--Indicador do tipo de arquivo (html)-->
+<!DOCTYPE html>
+
+<!--Tag que inicializa a linguagem e determina o idioma-->
+<html lang="pt-BR">
+
+<!--Cabeçalho do código (informações internas)-->
+<head>
+
+    <!--Tag de metacódigos e título-->
+    <meta charset="UTF-8"> <!-- Linguagem de codificação-->
+
+    <!--Viewport para dispositivos móveis-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Caixa Eletrônico</title> <!--Título da aba-->
+
+    <!--JUNÇÃO DO CÓDIGO HTML COM O CSS-->
+    <link rel="stylesheet" href="./styles.css">
+
+</head> <!--Fechamento com barra do cabeçalho-->
+
+<body> <!--Inicicialização da interface-->
+    <h1>Caixa Eletrônico</h1> <!--Título principal da tela-->
+   
+   
+    <label for="jessicalinda123">Digite a senha:</label>
+    <input type="text" id="jessicalinda123" placeholder="Senha (ex: 1234)">
+    <button onclick="entrar()">Entrar</button>
+    <p id="mensagemLogin"></p>
+
+    <hr>
+
+    <label for="valor">Digite o valor:</label>
+    <input type="number" id="valor" placeholder="Ex: 100">
+    <br><br>
+
+    <button onclick="depositar()">Depositar</button>
+    <button onclick="sacar()">Sacar</button>
+    <button onclick="consultarSaldo()">Consultar Saldo</button>
+
+    <p id="mensagem"></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
