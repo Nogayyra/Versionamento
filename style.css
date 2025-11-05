@@ -1,0 +1,72 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #004e92, #000428);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    /* ... outros estilos ... */
+    width: 320px; /* Limita a largura */
+    /* ... outros estilos ... */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #00e0ff;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+input {
+    width: 20%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #00b4d8;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #0096c7;
+    transform: scale(1.05);
+}
+
+p {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    /* Estas três linhas resolvem o problema: */
+    width: 70%; /* Define a largura para 70% da largura do container */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    margin-top: 20px; /* Mantém a margem de cima */
+    margin-bottom: 20px; /* Mantém a margem de baixo */
+}
