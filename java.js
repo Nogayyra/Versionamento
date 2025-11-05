@@ -57,7 +57,7 @@ function depositar() {
 // Limpa o campo de valor no HTML.
     campoValor.value = ""; 
 }
-
+.
 // Saque: A função 
 function sacar() {
     // Obtém o valor do campo e o converte para número decimal (float).
